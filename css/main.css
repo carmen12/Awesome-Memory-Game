@@ -1,7 +1,7 @@
 body{
     margin: auto;
 }
-h1{
+h1, h2, h3, h4, h5{
     text-align: center;
 }
 table {
@@ -21,7 +21,6 @@ tr{
     display:table-row;
     width:100px;
     min-width:100px;
-    /*border: 2px dashed #40f;*/
 }
 .tiles{
     width: 460px;
@@ -58,4 +57,13 @@ tr{
     transform: rotateY(180deg);
     box-sizing: border-box;
     padding: 10px;
+}
+#yeee{
+    text-align: center;
+    color:red;
+}
+button{
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-top: 10px;
 }
